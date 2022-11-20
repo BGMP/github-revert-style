@@ -1,0 +1,92 @@
+.delete-topic-button,
+.topic-tag,
+.topic-tag-action,
+.label,
+.Label,
+.IssueLabel,
+.state,
+.State,
+.timeline-comment-label,
+.avatar-user,
+.signed-commit-badge-large,
+.signed-commit-badge-medium,
+.signed-commit-badge-small {
+    border-radius: 4px !important;
+}
+
+.form-control,
+.form-select,
+.btn,
+.social-count {
+    box-shadow: none!important;
+}
+
+.pagination {
+    font-size: 0;
+}
+.pagination *:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.pagination *:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.pagination a,
+.pagination em,
+.pagination span,
+.pagination::before {
+    border-radius: 0px;
+    font-size: 14px;
+    border-right: 0;
+    border-left: 0;
+}
+
+.UnderlineNav {
+    box-shadow: inset 0 -1px 0 transparent;
+}
+
+.width-fit {
+    padding-left: calc((100% - 1215px) / 2) !important;
+}
+
+.pagehead-actions {
+    padding-right: calc((100% - 1215px) / 2) !important;
+}
+
+.js-repo-nav,
+.repository-content {
+    padding-left: calc((100% - 1215px) / 2) !important;
+    padding-right: calc((100% - 1215px) / 2) !important;
+}
+
+.gisthead {
+    padding-left: calc((108% - 1215px) / 2) !important;
+    padding-right: calc((108% - 1215px) / 2) !important;
+}
+
+.js-repo-nav > .UnderlineNav > ul > li > a {
+    visibility: visible !important;
+}
+.js-repo-nav > .UnderlineNav > .js-responsive-underlinenav-overflow {
+    visibility: hidden !important;
+}
+
+.user-status-circle-badge-container {
+    margin-left: -55px;
+    margin-bottom: 15px;
+}
+
+.user-status-message-wrapper span {
+    margin-right: 15px;
+}
+
+.avatar .avatar-small .circle {
+    border-radius: 3px;
+}
+
+.circle {
+    border-radius: 3px !important;
+}
