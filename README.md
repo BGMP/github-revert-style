@@ -2,14 +2,14 @@ GitHub Revert Style
 ---
 Reverts GitHub to before its latest major UI update.
 
-Around a year ago GitHub introduced a bunch of style changes which made look more roundish and decentred most of the
-content display on the site. This style tries to revert some of these changes and make GitHub look similar to its old
+Around a year ago GitHub introduced a bunch of style changes which made it look more roundish and decentred most of the
+content displayed on the site. This style tries to revert some of these changes and make GitHub look similar to its old
 style.
 
 It currently does the following:
   * Centres repositories and their headers.
+  * Gets rid of some rounded shapes which didn't exist before.
   * Aligns the status emoji's text a bit better.
-  * Gets raid of some rounded shapes which didn't exist before.
 
 ### How to use
 I took advantage of the Stylus browser extension which allows users to stylise any page they want using CSS which loads
@@ -31,9 +31,11 @@ should be ready to use!
 
 ### General Preview
 How raw GitHub looks like:
+
 ![1](https://user-images.githubusercontent.com/26081543/202923012-ef01490d-7c81-4295-b607-d8b5e4cb3b66.png)
 
 How it looks with this style:
+
 ![2](https://user-images.githubusercontent.com/26081543/202923016-b0c5caa3-0304-40b5-9ea2-2f43fd55df09.png)
 
 ### Notes
