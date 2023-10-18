@@ -57,13 +57,17 @@
 }
 
 .js-sidenav-container-pjax {
+    &[aria-label="Organization"] {
+         padding-left: calc((98% - 1215px) / 2) !important;
+    }
+
     &[aria-label="Repository"] {
          padding-left: calc((103% - 1215px) / 2) !important;
-     }
+    }
 
     &[aria-label="User"] {
          padding-left: calc((134% - 1215px) / 2) !important;
-     }
+    }
 }
 
 #js-repo-pjax-container {
