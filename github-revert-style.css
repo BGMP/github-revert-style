@@ -18,7 +18,7 @@
 .form-select,
 .btn,
 .social-count {
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
 
 .pagination {
@@ -56,8 +56,17 @@
     padding-right: calc((100% - 1215px) / 2) !important;
 }
 
-.js-repo-nav,
-.repository-content {
+.js-sidenav-container-pjax {
+    &[aria-label="Repository"] {
+         padding-left: calc((103% - 1215px) / 2) !important;
+     }
+
+    &[aria-label="User"] {
+         padding-left: calc((138% - 1215px) / 2) !important;
+     }
+}
+
+.application-main {
     padding-left: calc((100% - 1215px) / 2) !important;
     padding-right: calc((100% - 1215px) / 2) !important;
 }
