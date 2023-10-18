@@ -62,14 +62,15 @@
      }
 
     &[aria-label="User"] {
-         padding-left: calc((138% - 1215px) / 2) !important;
+         padding-left: calc((134% - 1215px) / 2) !important;
      }
 }
 
-.application-main {
+#js-repo-pjax-container {
     padding-left: calc((100% - 1215px) / 2) !important;
     padding-right: calc((100% - 1215px) / 2) !important;
 }
+
 
 .gisthead {
     padding-left: calc((108% - 1215px) / 2) !important;
