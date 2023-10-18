@@ -1,19 +1,20 @@
 GitHub Revert Style
 ---
-Reverts GitHub to before its latest major UI update.
-
-Around a year ago GitHub introduced a bunch of style changes which made it look more roundish and decentred most of the
-content displayed on the site. This style tries to revert some of these changes and make GitHub look similar to its old
-style.
+GitHub Revert Style is a small stylesheet I designed after GitHub introduced a bunch of UI changes which made the site
+look more roundish, and decentred most of the content displayed on the site. These styles revert some of these changes.
 
 It currently does the following:
-  * Centres repositories and their headers.
-  * Gets rid of some rounded shapes which didn't exist before.
-  * Aligns the status emoji's text a bit better.
+  * Centre repository headers.
+  * Centre repository contents.
+  * Centre user profile navigation.
+  * Replace rounded shapes for smaller border radius (avatars, topic tags, label tags, etc.).
+  * Align the status emoji's text.
 
 ### How to use
-I took advantage of the Stylus browser extension which allows users to stylise any page they want using CSS which loads
-along with the page itself. Here are downloads for the extension on Chrome or Firefox:
+You may apply these styles by using a browser extension. For example, Stylus is a browser extension which allows users
+to stylise any page they want using CSS that loads along with the page itself.
+
+You may download Stylus here:
   1. [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en-GB)
   2. [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/styl-us/)
 
@@ -29,18 +30,9 @@ should be ready to use!
 
 ![Step2](https://user-images.githubusercontent.com/26081543/202922115-0a91b667-0fae-4272-b7d2-27aca3988592.png)
 
-### General Preview
-How raw GitHub looks like:
-
-![1](https://user-images.githubusercontent.com/26081543/202923012-ef01490d-7c81-4295-b607-d8b5e4cb3b66.png)
-
-How it looks with this style:
-
-![2](https://user-images.githubusercontent.com/26081543/202923016-b0c5caa3-0304-40b5-9ea2-2f43fd55df09.png)
-
 ### Notes
-This is just meant to be a personal taste "rollback". I've had this style ever since GitHub changed its looks, and it
-has survived quite well!
+This is just meant to be a personal taste "rollback". I've used these styles ever since GitHub changed its looks and, to
+be fair, they have survived the test of time quite well.
 
-There are a few known issues I may address when I have time, but feel free to report them on the
-[Issues](https://github.com/BGMP/github-revert-style/issues) tab and I'll likely get to them sooner!
+Feel free to report any issues on the [Issues](https://github.com/BGMP/github-revert-style/issues) tab. I'll likely get
+to them sooner!
