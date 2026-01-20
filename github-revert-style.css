@@ -14,6 +14,10 @@
     border-radius: 4px !important;
 }
 
+.prc-Avatar-Avatar-0xaUi {
+    border-radius: 2px !important;
+}
+
 .form-control,
 .form-select,
 .btn,
@@ -56,18 +60,25 @@
     padding-right: calc((100% - 1215px) / 2) !important;
 }
 
-.js-sidenav-container-pjax {
+.LocalNavigation-module__LocalNavigation--PimyI {
     &[aria-label="Organization"] {
-         padding-left: calc((98% - 1215px) / 2) !important;
-    }
-
-    &[aria-label="Repository"] {
          padding-left: calc((103% - 1215px) / 2) !important;
     }
+}
 
-    &[aria-label="User"] {
-         padding-left: calc((134% - 1215px) / 2) !important;
-    }
+/* User profile repo nav */
+.prc-components-UnderlineWrapper-eT-Yj.LocalNavigation-module__LocalNavigation--PimyI:has([data-turbo-frame="user-profile-frame"]) {
+    padding-left: calc((134% - 1215px) / 2) !important;
+}
+
+/* Repo page nav */
+.prc-components-UnderlineWrapper-eT-Yj.LocalNavigation-module__LocalNavigation--PimyI:has([data-turbo-frame="repo-content-turbo-frame"]) {
+    padding-left: calc((103% - 1215px) / 2) !important;
+}
+
+/* All other cases (excluding user-profile-frame and repo-content-turbo-frame) */
+.prc-components-UnderlineWrapper-eT-Yj.LocalNavigation-module__LocalNavigation--PimyI:not(:has([data-turbo-frame="user-profile-frame"])):not(:has([data-turbo-frame="repo-content-turbo-frame"])) {
+    padding-left: calc((103% - 1300px) / 2) !important;
 }
 
 #js-repo-pjax-container {
